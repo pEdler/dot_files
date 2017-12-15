@@ -1,0 +1,4 @@
+color "+"    yellow    default
+color " +"   yellow    default
+color "-"    blue    default
+color " -"   blue    default

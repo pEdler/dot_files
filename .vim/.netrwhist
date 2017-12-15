@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/Users/pedler/Documents/git/postmedia-infrastructure/.git'
+let g:netrw_dirhist_2='/Users/pedler/Documents/git/postmedia-infrastructure/ansible'
+let g:netrw_dirhist_3='/Users/pedler/Documents/git/postmedia-infrastructure/ansible/playbooks'
+let g:netrw_dirhist_4='/Users/pedler'
+let g:netrw_dirhist_5='/Users/pedler/.vim/ftdetect'
+let g:netrw_dirhist_6='/Users/pedler/Documents/git/postmedia-infrastructure/ansible/playbooks'
+let g:netrw_dirhist_7='/Users/pedler/.vim/ftdetect'
+let g:netrw_dirhist_8='/Users/pedler'
