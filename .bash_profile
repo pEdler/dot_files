@@ -16,6 +16,7 @@ alias gitch='git checkout'
 alias gush='git push'
 alias gull='git pull'
 alias gadd='git add'
+alias gatus='git status'
 alias gommit='git commit'
 alias infomart-ansible="AWS_PROFILE=infomart ansible-playbook --private-key=~/.ssh/id_rsa --vault-password=~/.ansible/infomart-vault.txt -i inventory/aws_dynamic_inventory.py"
 alias postmedia-ansible="ANSIBLE_CONFIG=ansible.cfg ../scripts/get-credentials.py pdsandbox ansible-playbook -i inventory/ec2.py --private-key=~/.ssh/id_rsa --vault-password=~/.ansible/pmdigital-stage-vault.txt"
