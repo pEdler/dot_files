@@ -12,6 +12,11 @@ alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
 alias grep='grep --color=auto'
+alias gitch='git checkout'
+alias gush='git push'
+alias gull='git pull'
+alias gadd='git add'
+alias gommit='git commit'
 alias infomart-ansible="AWS_PROFILE=infomart ansible-playbook --private-key=~/.ssh/id_rsa --vault-password=~/.ansible/infomart-vault.txt -i inventory/aws_dynamic_inventory.py"
 alias postmedia-ansible="ANSIBLE_CONFIG=ansible.cfg ../scripts/get-credentials.py pdsandbox ansible-playbook -i inventory/ec2.py --private-key=~/.ssh/id_rsa --vault-password=~/.ansible/pmdigital-stage-vault.txt"
 alias stage-postmedia-ansible="ANSIBLE_CONFIG=stage-pmd-ansible.cfg ../scripts/get-credentials.py stage ansible-playbook -i inventory/ec2.py --private-key=~/.ssh/id_rsa --vault-password=~/.ansible/pmdigital-stage-vault.txt"
@@ -37,7 +42,7 @@ function ec2-info()
 }
 
 # Avoid duplicates
-export HISTCONTROL=ignoreboth:erasedups  
+export HISTCONTROL=ignoreboth:erasedups
 # When the shell exits, append to the history file instead of overwriting it
 shopt -s histappend
 
